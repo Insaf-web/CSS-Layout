@@ -1,0 +1,363 @@
+body{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav{
+    top: 0;
+    width: 100%;
+    height: 70px;
+    padding: -5px;
+    background-color:white;
+    box-shadow: 5px 5px 10px rgba(206, 205, 205, 0.233);
+    position: fixed;
+    z-index: 3;
+} 
+  
+.liste{
+    margin-top: 25px;
+    margin-right: 165px; 
+    list-style-type: none;
+    font-size: 15px;
+    color:  #747474;
+
+}
+
+nav > ul{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav > ul > li{
+float: right;
+margin-left: 50px;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+.sous-menu{
+    display: none;
+}
+
+
+.logo1{
+    width: 268px;
+    height: auto;
+    margin-left: 165px;
+    margin-top: -5px;
+}
+
+
+.logoicone{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+height: 40px;
+width: auto;
+margin-top: 100px;
+
+}
+
+h1 {
+    text-align: center;
+    color: #00b39b;
+    font-size: 35px;
+    font-weight: normal;
+      
+}
+
+table {
+    max-width: 1080px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:  #747474;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.vert{
+    background-color: #00b39b ;
+    border-radius: 10px;
+    margin-left: 165px;
+    height: 410px;
+    width: 490px;
+    float: left;
+    overflow: hidden;
+    
+}
+
+.ordipatient{
+width: 398px;
+height: auto;
+float: right;
+transform: translate(30%);
+box-sizing: border-box;
+
+}
+
+@supports (pointer-events: none) and
+      ((-webkit-appearance: none) or
+      (-moz-appearance: none) or
+      (appearance: none)) {
+
+  
+
+       .listeselect {
+        margin-left: 40px ;
+        float: right;
+        border-radius: 7px;
+        height: 35px;
+        width: 180px;
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 100px;
+        position: absolute;
+
+
+    }
+
+   
+
+.bleu{
+    background-color:#3d83df; 
+    border-radius: 10px;
+    margin-right: 165px;
+    height: 410px;
+    width: 490px;
+    float: right;
+    overflow: hidden;
+}
+
+.ordidoctor{
+    width: 398px;
+    height: auto;
+    float: right;
+    transform: translate(30%);
+    }
+
+    h3 {
+        text-align: left;
+        color: white;
+        font-size: 15px;
+        font-weight: normal;
+        margin-left: 40px;
+       margin-top: 25px;
+       opacity: 0.5;
+       filter:alpha(opacity=50);
+       -moz-opacity:0.5;
+          
+    }
+
+    h2 {
+        text-align: left;
+        color: white;
+        font-size: 25px;
+        font-weight: normal;
+        margin-left: 40px;
+        margin-right: 100px;
+        margin-top: -10px;
+          
+    }
+
+    .weare{
+        color: #00b39b;
+        font-size: 35px;
+        font-family: work;
+x       text-align: left;
+        margin-left: 165px;
+        padding-top: 30px;
+        width: 25%;
+        margin-top: 430px;
+    }
+
+    .groupe{
+        background-color:  #dffaf7;
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+        
+        
+    }
+
+    .theworld{
+        color: #00b39b;
+        font-size: 35px;
+x       text-align: left;
+        margin-left: 165px;
+        width: 30%;
+        padding-top: 30px;
+        line-height: 45px;
+    }
+
+    .wework {
+        text-align: left;
+        color:  #747474;
+        font-size: 15px;
+        font-weight: normal;
+        margin-left: 165px;
+        margin-top: -30px;
+        overflow: hidden;
+        line-height: 25px;
+    }
+
+    .lescadres{
+        width: 50%;
+        height: 100%;
+        float: right;
+        text-align: center;
+       margin: auto;
+
+    }
+    .cadre1{
+        background-color: white;
+        width: 240px;
+        height: 265px;
+        box-shadow: 0 0 5px rgba(206, 205, 205, 0.377);
+        z-index: 1;
+        float: left;
+        border-radius: 5px;
+        margin-top: 45px;
+
+    }
+
+    .flag{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        
+    }
+
+    .cadre2{
+        background-color: white;
+        width: 240px;
+        height: 265px;
+        box-shadow: 0 0 5px rgba(206, 205, 205, 0.377);
+        z-index: 1 ;
+        float: right;
+        border-radius: 5px;
+        margin-top: 25px;
+        margin-right: 165px;
+        
+
+    }
+
+    .visit{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 45px;
+    }
+
+    .cadre3{
+        background-color: white;
+        width: 240px;
+        height: 265px;
+        box-shadow: 0 0 5px rgba(206, 205, 205, 0.377);
+        z-index: 1;
+        float: left;
+        border-radius: 5px;
+        clear: both;
+        margin-bottom: 0px;
+
+    }
+
+    .patients{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 45px;
+
+    }
+
+    .cadre4{
+        background-color: white;
+        width: 240px;
+        height: 265px;
+        box-shadow: 0 0 5px rgba(206, 205, 205, 0.377);
+        z-index: 1;
+        float: right;
+        border-radius: 5px;
+        margin-right: 165px;
+        margin-bottom: 25px;
+
+    }
+
+    .doctors{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 45px;
+
+    }
+
+.leader{
+    color: #00b39b;
+    font-size: 25px;
+   text-align: center;
+   
+}
+
+.pays{
+    color:  #747474;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+    .grand{
+        width: 456px;
+        height: 435px;
+        margin-left: 40px;
+        box-sizing: inherit;
+        padding-top: 60px;
+    }
+
+    .improve{
+        padding-top: 50px;
+    }
+
+    .morethan {
+        text-align: center;
+        color:  #747474;
+        font-size: 15px;
+        font-weight: normal;
+        padding-top: 15px;
+        line-height: 25px;
+    }
+
+    .contenair{
+        background-color: turquoise;
+       
+
+
+    }
+    .tablephoto{
+        margin-top: 1500px;
+        margin-left: 165px;
+        margin-right: 165px;
+        margin: auto;
+        border-radius: 5px;
+        list-style-type: none;
+
+
+
+    }
+.footer{
+    text-align: center;
+    color:  #747474;
+    font-size: 13px;
+}
+
+.inline li{
+    list-style-type: none;
+    display: inline;
+}
+    
+.thissite{
+
+}    
